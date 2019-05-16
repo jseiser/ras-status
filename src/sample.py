@@ -60,7 +60,6 @@ class Monitor:
 def main():
     websites: Monitor = Monitor()
     websites.load_urls()
-    print(websites.get_website_status("https://as.rax.support:8080/customers"))
 
 
 if __name__ == "__main__":
