@@ -1,0 +1,46 @@
+---
+DEV:
+- name: Account Services
+  url: https://as.dev.rax.support:8080/customers
+  certs:
+    cert: "/path/to/cert.crt"
+    key: "/path/to/cert.key"
+    ca: "/path/to/ca.crt"
+- name: Overcorp
+  url: https://overcorps.dev.rax.support:8713/tenants
+  certs:
+    cert: "/path/to/cert.crt"
+    key: "/path/to/cert.key"
+    ca: "/path/to/ca.crt"
+- name: Mappy
+  url: http://mappy.dev.rax.support:82/api/v1/groups
+STAGE:
+- name: Account Services
+  url: https://as.stg.rax.support:8080/customers
+  certs:
+    cert: "/path/to/cert.crt"
+    key: "/path/to/cert.key"
+    ca: "/path/to/ca.crt"
+- name: Overcorp
+  url: https://overcorps.stg.rax.support:8713/tenants
+  certs:
+    cert: "/path/to/cert.crt"
+    key: "/path/to/cert.key"
+    ca: "/path/to/ca.crt"
+- name: Mappy
+  url: http://mappy.stg.rax.support:82/api/v1/groups
+PRODUCTION:
+- name: Account Services
+  url: https://as.rax.support:8080/customers
+  certs:
+    cert: "/path/to/cert.crt"
+    key: "/path/to/cert.key"
+    ca: "/path/to/ca.crt"
+- name: Overcorp
+  url: https://overcorps.rax.support:8713/tenants
+  certs:
+    cert: "/path/to/cert.crt"
+    key: "/path/to/cert.key"
+    ca: "/path/to/ca.crt"
+- name: Mappy
+  url: http://mappy.rax.support:82/api/v1/groups

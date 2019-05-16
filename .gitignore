@@ -1,0 +1,5 @@
+venv/
+src/config.yml
+src/.mypy_cache
+.mypy_cache/
+src/certs/

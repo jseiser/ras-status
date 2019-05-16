@@ -1,0 +1,22 @@
+---
+PRODUCTION:
+- name: Account Services
+  url: https://as.rax.support:8080/customers
+  certs:
+    cert: "certs/rasbot-client.crt"
+    key: "certs/rasbot-client.key"
+    ca: "certs/ca.crt"
+- name: Mappy
+  url: http://mappy.rax.support:82/api/v1/groups 
+TECH:
+- url: https://google.com
+- url: https://reddit.com
+- url: http://localhost:8080
+- url: https://yahoo.com
+- url: https://slashdot.com
+- url: http://fox.com
+- url: https://rackspace.com
+- url: https://github.com
+NEWS:
+- url: https://cnn.com
+- url: https://msnbc.com
